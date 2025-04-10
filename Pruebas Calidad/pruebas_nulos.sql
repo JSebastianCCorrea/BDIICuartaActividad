@@ -1,0 +1,1 @@
+SELECT * FROM pedidos WHERE id_cliente IS NULL;

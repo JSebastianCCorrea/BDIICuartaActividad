@@ -1,0 +1,1 @@
+SELECT dp.* FROM detalle_pedido dp LEFT JOIN pedidos p ON dp.id_pedido = p.id_pedido WHERE p.id_pedido IS NULL;
